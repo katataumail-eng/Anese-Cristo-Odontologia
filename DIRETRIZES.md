@@ -1,20 +1,20 @@
-# DIRETRIZES DE DESIGN E ENGENHARIA — ANESE CRISTO ODONTOLOGIA
+# AUDITORIA E DIRETRIZES DE ENGENHARIA — ANESE CRISTO ODONTOLOGIA (MODO ANTI-SLOP)
 
-## 1. REGRA DE OURO (ANTI-AI SLOP)
-- PROIBIDO: Layouts simétricos repetitivos (bento grids com 3 cards iguais), gradientes roxos/azuis, emojis, glassmorphism gratuito, sombras pesadas e bordas arredondadas em tudo.
-- PROIBIDO: Clichês de IA ("Transformando sorrisos", "Excelência em cada detalhe", "Cuidado humanizado").
-- OBRIGATÓRIO: Estética editorial de arquitetura/clínica boutique, assimetria intencional, filetes finos de 1px, alto contraste tipográfico e respiros negativos generosos.
+## 1. PROTOCOLO DE AUDITORIA DE CÓDIGO (ANTI-AI SLOP)
+Sempre que analisar ou gerar códigos HTML/CSS/JS para este repositório, atue como um Engenheiro Sênior implacável. Você deve verificar ativamente e **rejeitar / corrigir** qualquer indício óbvio de construção automática por IA, incluindo:
+- **Estruturas repetitivas:** Caixas idênticas em grid sem variação de ritmo visual (ex: 3 cards padronizados com ícone em cima).
+- **Efeitos gratuitos:** Glassmorphism (`backdrop-filter`) exagerado, sombras pesadas (`box-shadow` genéricas) ou gradientes roxos/azuis.
+- **Clichês textuais:** Frases vazias de marketing (*"Transformando sorrisos"*, *"Excelência em cada detalhe"*). Exija textos sóbrios, técnicos e humanos.
+- **Animações robóticas:** Efeitos de escala exagerados (`hover:scale-105` em tudo). Substitua por transições de opacidade suaves e deslocamentos de 2 a 4 pixels (*ease-out*).
 
-## 2. DADOS OFICIAIS (PROIBIDO INVENTAR)
+## 2. RIGOR TÉCNICO E MÍNIMOS DETALHES
+- O código deve ser totalmente autossuficiente (Single File Component limpo ou estrutura modular semântica).
+- Valide contrastes, acessibilidade (ARIA labels) e responsividade real (mobile-first com breakpoints fluidos).
+- Nunca invente dados clínicos, qualificações falsas ou imagens sintéticas. Use molduras estruturais onde faltarem fotos oficiais.
+
+## 3. DADOS OFICIAIS FIXOS
 - Clínica: Anese Cristo Odontologia (antigo Espaço Odontológico)
 - Responsável: Dra. Gileane Anese — CRO 5933
 - Endereço: Perimetral Noroeste, 2982 - Piso 1, Sala 18 - Centro Norte, Sorriso - MT, CEP 78890-000
 - WhatsApp: +55 (66) 99712-9383
-- Horário: Segunda a sexta-feira, das 7h30 às 17h30
 - Instagram: @anesecristoodontologia
-- Serviços: Implantes odontológicos, Tratamento de canal, Ortodontia, Facetas dentárias, Clareamento dental, Odontologia estética e harmonização.
-
-## 3. REGRA DE IMAGENS E LOGOTIPO
-- Nunca usar fotos de bancos de imagens (Unsplash/Pexels) como se fossem da clínica ou da equipe.
-- Onde não houver foto oficial verificada, criar molduras técnicas preparadas para receber as imagens reais posteriormente.
-- O logotipo deve seguir a marca oficial real da clínica (sem invenções gráficas geradas por IA).
